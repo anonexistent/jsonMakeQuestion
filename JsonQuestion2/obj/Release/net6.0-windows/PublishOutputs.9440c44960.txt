@@ -1,0 +1,9 @@
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\JsonQuestion2.exe
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\JsonQuestion2.dll
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\JsonQuestion2.deps.json
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\JsonQuestion2.runtimeconfig.json
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\JsonQuestion2.pdb
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\MaterialDesignColors.dll
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\MaterialDesignThemes.Wpf.dll
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\Microsoft.Xaml.Behaviors.dll
+C:\Users\kanygin.dv1380\Documents\GitHub\d (jsonWorker)\Newtonsoft.Json.dll

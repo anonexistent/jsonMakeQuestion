@@ -1,0 +1,276 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MaterialDesignColors/2.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.9.0": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "2.1.4",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "compile": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaterialDesignColors/2.1.4": {
+      "sha512": "C4Oy+qkjMoMPoZKyqYdCnIYtK8c0OSIHmNP73Vgc69NjiUG093xTkE7W/Ks54cTDS7fmWOtUHfwISTVTtb/YKg==",
+      "type": "package",
+      "path": "materialdesigncolors/2.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net462/MaterialDesignColors.dll",
+        "lib/net462/MaterialDesignColors.pdb",
+        "lib/net6.0/MaterialDesignColors.dll",
+        "lib/net6.0/MaterialDesignColors.pdb",
+        "lib/net7.0/MaterialDesignColors.dll",
+        "lib/net7.0/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.1/MaterialDesignColors.dll",
+        "lib/netcoreapp3.1/MaterialDesignColors.pdb",
+        "materialdesigncolors.2.1.4.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/4.9.0": {
+      "sha512": "Bp9Auw70j+9V7WsUMT4pc8ulVzfL0Eav/tyGgICDirxxhKJwhqtC/6PRkTUm+R1t9611xiDuk5pSUNdDV6vfOQ==",
+      "type": "package",
+      "path": "materialdesignthemes/4.9.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net462/MaterialDesignThemes.Wpf.dll",
+        "lib/net462/MaterialDesignThemes.Wpf.pdb",
+        "lib/net462/MaterialDesignThemes.Wpf.xml",
+        "lib/net6.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net6.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net6.0/MaterialDesignThemes.Wpf.xml",
+        "lib/net7.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net7.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net7.0/MaterialDesignThemes.Wpf.xml",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.pdb",
+        "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.4.9.0.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "sha512": "8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/net5.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.1/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.1/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MaterialDesignThemes >= 4.9.0",
+      "Newtonsoft.Json >= 13.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kanygin.dv1380\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\SU\\Desktop\\JsonQuestion\\JsonQuestion2\\JsonQuestion2\\JsonQuestion2.csproj",
+      "projectName": "JsonQuestion2",
+      "projectPath": "C:\\Users\\SU\\Desktop\\JsonQuestion\\JsonQuestion2\\JsonQuestion2\\JsonQuestion2.csproj",
+      "packagesPath": "C:\\Users\\kanygin.dv1380\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SU\\Desktop\\JsonQuestion\\JsonQuestion2\\JsonQuestion2\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kanygin.dv1380\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[4.9.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

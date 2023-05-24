@@ -1,0 +1,9 @@
+C:\Users\kanygin.dv1380\Desktop\d\JsonQuestion2.exe
+C:\Users\kanygin.dv1380\Desktop\d\JsonQuestion2.dll
+C:\Users\kanygin.dv1380\Desktop\d\JsonQuestion2.deps.json
+C:\Users\kanygin.dv1380\Desktop\d\JsonQuestion2.runtimeconfig.json
+C:\Users\kanygin.dv1380\Desktop\d\JsonQuestion2.pdb
+C:\Users\kanygin.dv1380\Desktop\d\MaterialDesignColors.dll
+C:\Users\kanygin.dv1380\Desktop\d\MaterialDesignThemes.Wpf.dll
+C:\Users\kanygin.dv1380\Desktop\d\Microsoft.Xaml.Behaviors.dll
+C:\Users\kanygin.dv1380\Desktop\d\Newtonsoft.Json.dll
